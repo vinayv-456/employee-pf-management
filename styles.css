@@ -160,10 +160,32 @@
 #nav-flex{
     align-content: space-between;
     justify-content: space-evenly;
-
 }
 
 #home{
     width: 150;
     height: auto;
+}
+
+.nav-button{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.active{
+    background-color: rgb(35, 20, 238);
+}
+
+.bar{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.range-apart{
+    display: flex;
+    justify-content: space-between;
 }
