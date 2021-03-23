@@ -148,3 +148,22 @@
     border-top-right-radius: 0px;
     color: white;
 }
+
+#navigation{
+    position: fixed;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}   
+
+#nav-flex{
+    align-content: space-between;
+    justify-content: space-evenly;
+
+}
+
+#home{
+    width: 150;
+    height: auto;
+}
