@@ -1,0 +1,150 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin: 10px;
+}
+.side-content{
+    width: 100%;
+    height: auto; 
+    background-color: #F8F8F8;
+    border-radius: 35px;
+}
+.main-content{
+    width: 100%;
+    height: auto;
+}
+
+.column-flow{
+    display: flex;
+    flex-direction: column;
+}
+
+.inside-margin{
+    margin: 20px;
+}
+
+.align-items{
+    justify-content: center;
+}
+
+.heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.normal-font{
+    font-size: 35px;
+}
+
+#pro-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.margin-left{
+    margin-left: 20px;
+}
+
+.buttom-margin{
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.flex{
+    display: flex;
+}
+
+.balance{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.margin-right{
+    margin-right: 30;
+}
+
+.button-style{
+    background-color: rgb(35, 20, 238);
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+
+.line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#buttom-trans{
+    margin-bottom: 40px;
+}
+
+#text-retirement{
+    color: blue;
+}
+
+.contribution-div{
+    width: 30px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+#employer-div{
+    background-color: rgb(16, 16, 110);
+}
+
+.light-weight{
+    font-weight: 100;
+}
+
+#employee-div{
+    background-color: rgb(88, 17, 201);
+}
+
+#intrest-div{
+    background-color: rgb(53, 111, 199);
+}
+
+#graph{
+    height: 500px;
+    width: 100%;
+    background-color: brown;
+}
+
+#peers-margin{
+    margin-bottom: 20px;
+}
+
+#progress{
+    height: 300px;
+    background-color: cadetblue;
+}
+
+#retirement-margin{
+    margin-bottom: 20px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.margin-top{
+    margin-top: 40px;
+}
+
+#update-button{
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    color: white;
+}
