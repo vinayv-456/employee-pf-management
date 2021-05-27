@@ -488,14 +488,15 @@ body{
 .canvasjs-chart-container{
     z-index: -1;
 }
-
-.notify-bell{
-    position: fixed;
-    bottom:0px;
-    left: 0px;
-    padding: 20px;
-    width: 40px;
-    z-index: 1000;
+@media screen and (min-width: 1023px){
+    .notify-bell{
+        position: fixed;
+        bottom:0px;
+        left: 0px;
+        padding: 20px;
+        width: 40px;
+        z-index: 1000;
+    }
 }
 .bell{
     width: 25px;
