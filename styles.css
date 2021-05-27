@@ -59,6 +59,11 @@ body{
     font-family:  Georgia, serif;
 }
 
+.heading2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .sub-heading{
     font-size: 1.5rem;
     font-weight: bold;
@@ -109,7 +114,6 @@ body{
     color: white;
 }
 .normal-font.button-style{
-    width: 80%;
     justify-content: center;
     border: 0px;
     font-weight: 800;
@@ -122,12 +126,13 @@ body{
     margin-bottom: 65px;
 }
 .line{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
     border-width: 1px;
     border-style: solid;
 }
-
+#contri-text{
+    margin-bottom: 20px;
+}
 #buttom-trans{
     margin-bottom: 20px;
 }
@@ -142,12 +147,33 @@ body{
 
 #text-retirement{
     color: blue;
+    font-weight: 900;
+}
+
+.equi-div > .normal-font.text-sec-color{
+    font-weight: 800;
+}
+
+.equi-div > .line{
+    color: blue;
 }
 
 .contribution-div{
-    width: 30px;
-    height: 20px;
+    width: 15px;
+    height: 10px;
     border-radius: 10px;
+    margin-top: 3px;
+}
+
+.contribution-div+.normal-font{
+    font-size: 0.7rem;
+    margin-left: 5px;
+}
+
+.indiv-contri{
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-left: 5px;
 }
 
 #employer-div{
@@ -186,6 +212,10 @@ body{
     margin-bottom: 20px;
 }
 
+#peers-comp-div{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 #retirement-margin{
     margin-bottom: 20px;
@@ -437,11 +467,6 @@ body{
         -webkit-transform: rotate(135deg);
         transform: rotate(135deg)
     }
-}
-
-.goal-div {
-    flex-basis: unset;
-    flex: 1;
 }
 
 .equi-div{
